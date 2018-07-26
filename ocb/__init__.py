@@ -371,7 +371,7 @@ References
         if tag == full_valid_tag:
             return (True, plaintext)
         else:
-            return (False, [])
+            return (False, plaintext)
 
 import unittest
 from .aes import AES
